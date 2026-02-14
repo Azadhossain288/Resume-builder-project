@@ -1,11 +1,19 @@
 
 // src/pages/Home.jsx
 import React from 'react'
+import Banner from '../components/home/Banner';
+import Hero from '../components/home/hero';
+
+
 
 const Home = () => { 
      return (
           <div>
-            <h1>Home Page</h1>
+             <Banner />
+
+            <Hero />
+
+             
           </div>
      )
 }
