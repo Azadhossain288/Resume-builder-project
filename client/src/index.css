@@ -5,3 +5,13 @@
 
   font-family: "Outfit",sans-serif;
 }
+
+ /* Adding cursor pointer */
+
+ @layer base{
+
+     button{
+
+          @apply cursor-pointer;
+     }
+ }
